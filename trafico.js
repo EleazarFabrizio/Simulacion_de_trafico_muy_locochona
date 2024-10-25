@@ -37,7 +37,7 @@ function cambio_semaforo () {
         semaforo_ciclo = 1;
     }
 
-    semaforo_imagen.src = `/imagenes/semaforo_ciclo_${semaforo_ciclo}.png`
+    semaforo_imagen.src = `./imagenes/semaforo_ciclo_${semaforo_ciclo}.png`
     numero_semaforo = semaforo_tiempo
 
     //console.log(autos)
@@ -98,7 +98,7 @@ class Explosion {
         main_div.appendChild(this.element);
         this.element.style.top = `${this.y}px`;
         this.element.style.left = `${this.x}px`;
-        this.element.src = `/imagenes/explosion.gif`;
+        this.element.src = `./imagenes/explosion.gif`;
     }
     
     end_explosion(){
