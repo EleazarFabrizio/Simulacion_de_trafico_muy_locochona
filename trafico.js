@@ -142,16 +142,16 @@ class Auto {
                 this.estado = "idle"
 
                 color_random = color_autos[random(0,color_autos.length)]
-                this.element.src = `/imagenes/autos/${color_random}.png`;
+                this.element.src = `./imagenes/autos/${color_random}.png`;
                 
                 this.peligro = "safe"
                 if (random(0,100) <= 50) { 
                     this.peligro = "maniac"
-                    this.element.src = `/imagenes/autos/rojo.png`
+                    this.element.src = `./imagenes/autos/rojo.png`
                 }
 
                 if (this.peligro == "maniac"){
-                    this.element.src = `/imagenes/autos/rojo.png`
+                    this.element.src = `./imagenes/autos/rojo.png`
                 }
 
                 
