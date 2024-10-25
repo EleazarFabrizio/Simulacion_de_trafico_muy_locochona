@@ -4,6 +4,8 @@ body {
     background-size: cover;
     background-color: rgb(90, 89, 96);
     background-repeat: no-repeat, repeat;
+    font-family: Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
   }
 
 #main_div{
@@ -82,5 +84,33 @@ body {
 .auto {
   position: absolute;
 
-  transition: transform 2s;
+  /*transition: transform 2s ease-in-out;*/
+}
+
+.explosion {
+  position: absolute;
+
+  width: 250px;
+
+  transition: transform 2s ;
+}
+
+#fps{
+  position: absolute;
+  bottom: 20px;
+}
+
+#semi_black{
+
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.482);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#pre {
+  color: white;
 }
